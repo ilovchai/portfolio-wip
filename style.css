@@ -1,0 +1,136 @@
+*{
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+}
+body{
+    overflow: hidden;
+}
+ul{
+    list-style-type: none;
+    font-family: 'Inter', sans-serif;
+text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.section{
+    padding: 5rem 0;
+  }
+  .section-center{
+    width: 90vw;
+    margin: 0 auto;
+  }
+
+.nav-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.nav-toggle{
+    color: #F99B7D;
+    background: transparent;
+    border-color: transparent;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+button{
+    font-size: 1.5rem;
+    border-color: transparent;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    background: transparent;
+}
+
+button:hover{
+    color: #eaceb4;
+}
+
+.links a{
+    color: #e79e85;
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s linear;
+  }
+  .links a:hover{
+    background: #eaceb4;
+    padding-left: 1.5rem;
+  }
+  .links{
+    height:0;
+    overflow: hidden;
+    transition: all 0.3s linear;
+  }
+  .show-links{
+    height: 100rem;
+  }
+
+  .ola{ 
+position: relative;
+width: 300px;
+height: 259px;
+left: 225px;
+top: 20px;
+
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 86px;
+
+color: #000000;
+  }
+
+  .image-gif{
+    float: right;
+    padding: 0;
+    margin-right: 40%;
+  }
+
+  .frog{
+    height: 50vh;
+    border-radius: 50%;
+    position: absolute;
+  }
+
+  .eu{
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    width: 590px;
+left: 225px;
+margin-top: 3vh;
+
+
+  }
+  .pink{
+    color:#e79e85
+  }
+
+  .tech{
+position: relative;
+width: 590px;
+left: 225px;
+margin-top: 3vh;
+font-family: 'Inter', sans-serif;
+  }
+
+  .icones{
+position: relative;
+left: 225px;
+width: 590px;
+display: flex;
+height: 4rem;
+gap: 40px;
+margin-top: 3vh;
+}
